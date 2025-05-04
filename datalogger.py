@@ -8,7 +8,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, refine_landmarks=True)
 
 # Set which word you're recording
-word = "hamburger"  # <-- CHANGE THIS EACH TIME ("yes", "no", "hello")
+word = "hello"  # <-- CHANGE THIS EACH TIME ("yes", "no", "hello")
 save_dir = f"data/{word}"
 
 # Create folder if it doesn't exist
