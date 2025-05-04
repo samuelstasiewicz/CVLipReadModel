@@ -51,6 +51,8 @@ history = model.fit(
     verbose=1            # Shows training progress
 )
 
+model.save("models/lip_read_model.h5")
+print("Model saved successfully.")
 import matplotlib.pyplot as plt
 
 # Plot training & validation accuracy
